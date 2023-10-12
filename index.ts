@@ -1,6 +1,6 @@
 import express from 'express';
 import mongoose from 'mongoose';
-import booksRoute from './routes/booksRoutes';
+import booksRoute from './backend/routes/booksRoutes';
 import cors from 'cors';
 
 import dotenv from 'dotenv';
